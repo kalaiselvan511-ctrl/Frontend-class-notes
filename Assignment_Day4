@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>
+  The <strong>Eiffel Tower</strong>, located in <em>Paris, France</em>, is one of the most 
+  <u>iconic landmarks</u> in the world. Built in 1889, it was originally intended as a 
+  temporary structure for the World's Fair. Today, it stands as a <mark>symbol of French culture</mark> 
+  and attracts millions of visitors each year. Many tourists find the <strong><u>view from the top</u></strong> 
+  to be absolutely <em><mark>breathtaking</mark></em>.
+</p>
+<form action="/submit">
+  <label for="name">Name:</label><br>
+  <input type="text"><br><br>
+
+  <label for="message">Message:</label><br>
+  <textarea name="message" rows="5" cols="30"></textarea><br><br>
+
+  <button type="submit">Submit</button>
+</form>
+<ol>
+  <li>Idli with Sambar and Chutney</li>
+  <li>Dosa with Coconut Chutney</li>
+  <li>Chettinad Chicken Curry</li>
+  <li>Pongal (Ven Pongal)</li>
+  <li>Parotta with Salna</li>
+</ol>
+<ul>
+  <li>Rasam</li>
+  <li>Sambar Sadam</li>
+  <li>Curd Rice with Pickle</li>
+  <li>Kothu Parotta</li>
+  <li>Murukku (snack)</li>
+</ul>
+
+<table border="1">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Age</th>
+      <th>City</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Pradeep</td>
+      <td>21</td>
+      <td>TPT</td>
+    </tr>
+    <tr>
+      <td>Venkatesh</td>
+      <td>21</td>
+      <td>Vellore</td>
+    </tr>
+    <tr>
+      <td>Balaji</td>
+      <td>21</td>
+      <td>Chennai</td>
+    </tr>
+    <tr>
+      <td>Daya</td>
+      <td>21</td>
+      <td>TPT</td>
+    </tr>
+    <tr>
+      <td>Gokul raj</td>
+      <td>21</td>
+      <td>TPT</td>
+    </tr>
+  </tbody>
+</table>
+
+
+</body>
+</html>
