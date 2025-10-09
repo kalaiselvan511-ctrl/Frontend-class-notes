@@ -1,16 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <title>Student Attendance Sheet</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: center;
+    }
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+    .present { background-color: #d4edda; } /* green */
+    .absent { background-color: #f8d7da; }  /* red */
+    .late { background-color: #fff3cd; }    /* yellow */
+  </style>
 </head>
 <body>
-        <h2>List</h2>
-        <ol>
-            
-        </ol>
-
-
+  <h2>Student Attendance Sheet - October 2025</h2>
+  <table>
+    <tr>
+      <th>Roll No</th>
+      <th>Name</th>
+      <th>01</th>
+      <th>02</th>
+      <th>03</th>
+      <th>04</th>
+      <th>05</th>
+      <th>06</th>
+      <th>07</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Arjun Kumar</td>
+      <td class="present">P</td>
+      <td class="absent">A</td>
+      <td class="present">P</td>
+      <td class="present">P</td>
+      <td class="late">L</td>
+      <td class="present">P</td>
+      <td class="absent">A</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Anjali Sharma</td>
+      <td class="present">P</td>
+      <td class="present">P</td>
+      <td class="late">L</td>
+      <td class="present">P</td>
+      <td class="present">P</td>
+      <td class="absent">A</td>
+      <td class="present">P</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Ravi Patel</td>
+      <td class="absent">A</td>
+      <td class="present">P</td>
+      <td class="present">P</td>
+      <td class="present">P</td>
+      <td class="absent">A</td>
+      <td class="present">P</td>
+      <td class="present">P</td>
+    </tr>
+  </table>
 </body>
 </html>
